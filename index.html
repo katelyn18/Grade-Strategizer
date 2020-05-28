@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grade Strategizer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Grade Strategizer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Help</a>
+            </li>
+
+			<div class="dropdown">
+  				<li class="dropbtn">Login</li>
+  				<div class="dropdown-content">
+					<p id = "loginTitle">Login</p>
+          <p><a href="html/CreateLogin.html">Not a member?</a></p>
+          <form method="post" action="php/dashboard.php">
+
+          <div class="formblock">
+            <h2>Members Log In Here</h2>
+
+            <p><label for="username">Username:</label><br/>
+            <input type="text" name="username" id="username" /></p>
+
+            <p><label for="passwd">Password:</label><br/>
+            <input type="password" name="passwd" id="passwd" /></p>
+
+            <button type="submit">Log In</button>
+
+            <p><a href="forgot_form.php">Forgot your password?</a></p>
+          </div>
+
+         </form>
+					<!-- <p>Username: <input type = "text" id = "username" name = "username" size = "15" maxlength = "30" /> </p>
+					<p>Password: <input type = "password" id = "password" name = "password" size = "15" maxlength = "30" /> </p>
+					<button type = "button" id = "createB" onclick = "openCreate()">Create</button>
+					<button type = "button" id = "forgotB" onclick = "openForgot()">Forgot Password</button>
+					<button type = "button" id = "loginB" onclick = "goToDash()">Login</button> -->
+  				</div>
+			</div>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to Grade Strategizer</h1>
+        <p class="lead">Click the button to get started</p>
+		<button type = "button" id = "startB">Get Started</button>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About this page</h2>
+			<h3><b>Greetings!</b></h3>
+			<p>
+				Thank you for visiting Grade Strategizer.<br/>
+				Grade Strategizer is a Web Application developed by Team106.<br/>
+				We have a <b>mission</b> - to keep you on <b>top</b> of your grades!<br/>
+				We hope you enjoy using Grade Strategizer!<br/>
+			</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Need help?</h2>
+			<h3><b>Calculating</b></h3>
+			<p>
+				If you need to make a certain grade in your class, find out how well you need to do on your test or assignment.<br/>
+				<ol>
+					<li>Enter the grade you currently have in the class (in percentage)</li>
+					<li>Enter the weight of the assignment (percentage towards final grade)</li>
+					<li>Enter the grade you must get in the class (in percentage)</li>
+				</ol>
+				We will tell you the score that you must get on this test if you want to keep a good grade!
+			</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Grade Strategizer 2017</p>
+		<p class="m-0 text-center text-white">Template from https://startbootstrap.com/template-categories/all/</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
